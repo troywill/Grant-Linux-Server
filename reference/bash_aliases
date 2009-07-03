@@ -1,8 +1,9 @@
 EDITOR='emacs'
+USER='troy'
 alias ..='cd .. && clear && ls'
 alias c='clear && ls'
 alias cl='rm *~ 2>/dev/null; clear && ls'
 alias e=${EDITOR}
 alias eb="${EDITOR} ~/.bash_aliases && source ~/.bash_aliases"
-alias troy-ssh-add='eval `ssh-agent -s` && ssh-add'
+alias ${USER}-ssh-add='eval `ssh-agent -s` && ssh-add'
 alias f1='find . -cmin -1'
