@@ -1,4 +1,2 @@
-# Set stow dir to /stow
 --dir=/stow
-# Set target to DIR (default is parent of stow dir)
 --target=/
