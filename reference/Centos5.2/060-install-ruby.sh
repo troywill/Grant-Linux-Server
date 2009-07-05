@@ -1,5 +1,5 @@
 # 2009-07-04
-INSTALL='sudo aptitude install'
+INSTALL='sudo yum install'
 ${INSTALL} libssl-dev
 ${INSTALL} zlib1g-dev
 ${INSTALL} libreadline5-dev
