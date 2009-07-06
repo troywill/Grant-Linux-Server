@@ -1,5 +1,6 @@
 # 2009-07-04
 INSTALL='sudo aptitude install'
+${INSTALL} ncurses-dev
 ${INSTALL} libssl-dev
 ${INSTALL} zlib1g-dev
 ${INSTALL} libreadline5-dev
