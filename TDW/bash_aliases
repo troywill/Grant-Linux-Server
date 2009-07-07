@@ -1,5 +1,5 @@
 EDITOR='emacs'
-USER='troy'
+USER='grant'
 alias ..='cd .. && clear && ls'
 alias c='clear && ls'
 alias cl='rm *~ 2>/dev/null; clear && ls'
@@ -13,3 +13,5 @@ alias s='cd ~/s && clear && ls'
 alias gl='cd /home/troy/rc/Grant-Linux-Server && clear && ls'
 alias s='cd /home/troy/rc/Grant-Linux-Server/scripts && clear && ls'
 alias exp='cd /home/troy/rc/stow/experimental && clear && ls'
+
+alias u='cd /home/troy/rc/Grant-Linux-Server/scripts/RapidVPS.com/Ubuntu-8.04 && clear && ls'
