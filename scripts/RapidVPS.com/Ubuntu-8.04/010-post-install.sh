@@ -1,7 +1,8 @@
 #!/bin/sh
+set -e 'errexit'
 # TDW
 source ./common-lib.sh
-apt-get update && apt-get install aptitude && aptitude safe-upgrade
-aptitude install emacs22-nox sudo git-core
-
+aptitude update
+aptitude safe-upgrade
+aptitude install emacs22-nox git-core
 
