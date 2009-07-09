@@ -1,6 +1,0 @@
-# /etc/sudoers
-Defaults	env_reset
-Defaults:troy	timestamp_timeout=-1
-root		ALL=(ALL) ALL
-troy		ALL=(ALL) ALL
-
