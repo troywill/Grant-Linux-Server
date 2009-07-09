@@ -3,5 +3,5 @@
 # Grant Linux on RapidVPS.com Debian 5 server
 # Install Self-contained RDBMS in a DBI Driver
 # See http://search.cpan.org/dist/DBD-SQLite/
-sudo aptitude install libdbd-sqlite3-perl
-# Can also sudo perl -MCPAN -e "install DBD-SQLite"
+sudo perl -MCPAN -e "install DBD-SQLite"
+# Can also sudo aptitude install libdbd-sqlite3-perl
