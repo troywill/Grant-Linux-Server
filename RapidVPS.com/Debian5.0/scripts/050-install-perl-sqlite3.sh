@@ -4,3 +4,4 @@
 # Install Self-contained RDBMS in a DBI Driver
 # See http://search.cpan.org/dist/DBD-SQLite/
 sudo aptitude install libdbd-sqlite3-perl
+# Can also sudo perl -MCPAN -e "install DBD-SQLite"
